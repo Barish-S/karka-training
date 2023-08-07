@@ -12,4 +12,3 @@ print("History -",history)
 total=(tamil+english+maths+science+history)
 average=total/5
 print("Grade Average -",average)
-print()
