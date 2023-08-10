@@ -1,4 +1,4 @@
-nums_list = [20,15,2, 5, 8, 9, 3, 35, 7,10]
+nums_list = [20,15,2, 5, 8, 9, 3, 35,100, 7,10]
 max=0
 min=nums_list[3]
 for n in nums_list:
