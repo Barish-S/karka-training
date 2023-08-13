@@ -1,9 +1,18 @@
 <html>
     <head></head>
     <body>
+        <form action="16.html" method="post">
         <h1>Please Fill And Submit Form:</h1><hr>
-        <p>Name  : <input></p>
-        <p>E-Mail: <input></p>
-        <button>Submit</button>
+        <input type="email" required name="Mail-ID" placeholder="E-Mail" /><br/><br/>
+        <input type="password" required name="Pass" placeholder="Password" /><br/><br/>
+        <p> Select A Color You Like:</p>
+        <input type="radio" name="color" id="red"/>
+        <label for="red">Red</label><br/>
+        <input type="radio" name="color" id="green" />
+        <label for="green">Green</label><br/>
+        <input type="radio" name="color" id="blue"/>
+        <label for="blue">Blue</label><br>
+        <input type="submit" value="Submit"/>
+    </form>
     </body>
 </html>
